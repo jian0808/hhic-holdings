@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@import url('/css/reset.css');
+@import url('css/reset.css');
 
 /* Font Family */
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
@@ -129,12 +129,12 @@ body {
     display: block;
     width: 211px;
     height: 32px;
-    background: url('/images/logo-w.png') no-repeat left / 90%;
+    background: url('../images/logo-w.png') no-repeat left / 90%;
     text-indent: -9999px;
 }
 .header.on .logo a,
 .header.scrolled .logo a {
-    background: url('/images/logo.png') no-repeat left / 90%;
+    background: url('../images/logo.png') no-repeat left / 90%;
 }
 
 /* nav */
@@ -405,7 +405,7 @@ body {
     /* aspect-ratio: 16 / 9; */
 }
 .main-visual .main-slide .slide-bg-01 {
-    background-image: url('/images/main_slide_bg01.jpg');
+    background-image: url('../images/main_slide_bg01.jpg');
 }
 .main-visual .main-slide .slide-bg-01::before {
     content: '';
@@ -417,7 +417,7 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
 }
 .main-visual .main-slide .slide-bg-02 {
-    background-image: url('/images/main_slide_bg02.jpg');
+    background-image: url('../images/main_slide_bg02.jpg');
 }
 .main-visual .main-slide .swiper-slide .slide-title {
     position: absolute;
@@ -508,7 +508,7 @@ body {
     width: 100%;
     height: 200vh;    
     color: #fff;
-    background: url('/images/main_business_bg.jpg') no-repeat center / cover;
+    background: url('../images/main_business_bg.jpg') no-repeat center / cover;
     background-attachment: fixed;
 }
 .business .inner {
@@ -568,19 +568,19 @@ body {
     background-color: rgba(0,0,0,.1);
 }
 .business .content-box .business-list .item:nth-child(1) a {
-    background-image: url('/images/business_bg01.jpg');
+    background-image: url('../images/business_bg01.jpg');
 }
 .business .content-box .business-list .item:nth-child(2) a {
-    background-image: url('/images/business_bg02.jpg');
+    background-image: url('../images/business_bg02.jpg');
 }
 .business .content-box .business-list .item:nth-child(3) {
-    background-image: url('/images/business_bg03.jpg');
+    background-image: url('../images/business_bg03.jpg');
 }
 .business .content-box .business-list .item:nth-child(4) {
-    background-image: url('/images/business_bg04.jpg');
+    background-image: url('../images/business_bg04.jpg');
 }
 .business .content-box .business-list .item:nth-child(5) {
-    background-image: url('/images/business_bg05.jpg');
+    background-image: url('../images/business_bg05.jpg');
 }
 .business .content-box .business-list .item .context {
     position: absolute;
@@ -614,7 +614,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('/images/main_esg_bg.jpg') no-repeat center top / cover;
+    background: url('../images/main_esg_bg.jpg') no-repeat center top / cover;
     filter: blur(3px);
     transform: scale(1.1);
     z-index: -1;
@@ -639,8 +639,6 @@ body {
 }
 .esg .esg-list .box {
     position: relative;
-    /* width: 340px;
-    height: 340px; */
     width: 33.33%;
     max-width: 340px;
     border-radius: 50%;
@@ -678,13 +676,13 @@ body {
     transition: .9s;
 }
 .esg .esg-list .box .clip-box.esg-bg01::before {            
-    background-image: url('/images/esg-bg01.jpg');
+    background-image: url('../images/esg-bg01.jpg');
 }
 .esg .esg-list .box .clip-box.esg-bg02::before {
-    background-image: url('/images/esg-bg02.jpg');
+    background-image: url('../images/esg-bg02.jpg');
 }
 .esg .esg-list .box .clip-box.esg-bg03::before {
-    background-image: url('/images/esg-bg03.jpg');
+    background-image: url('../images/esg-bg03.jpg');
 }
 .esg .esg-list .box:hover .clip-box::before {
     clip-path: circle(100% at 50% 50%);
